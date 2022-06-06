@@ -1,0 +1,26 @@
+{
+  "name": "common-modules-psql-query-runner",
+  "version": "1.0.0",
+  "description": "This module is used to get the query string from the users and execute the query in postgresql. Finally, it returns the requested data to the front end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymautomation/common-modules-psql-query-runner.git"
+  },
+  "keywords": [
+    "sql-query-runner"
+  ],
+  "author": "Kiran Shankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ymautomation/common-modules-psql-query-runner/issues"
+  },
+  "homepage": "https://github.com/ymautomation/common-modules-psql-query-runner#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
