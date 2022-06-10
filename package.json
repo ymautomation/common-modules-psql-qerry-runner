@@ -4,7 +4,7 @@
   "description": "This module is used to get the query string from the users and execute the query in postgresql. Finally, it returns the requested data to the front end.",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/ymautomation/common-modules-psql-query-runner#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "pg-promise": "^10.11.1"
   }
 }
